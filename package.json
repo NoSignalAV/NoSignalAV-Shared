@@ -1,0 +1,33 @@
+{
+    "name": "nosignalav-shared",
+    "version": "1.0.0",
+    "description": "Shared resources and configurations for NoSignalAV projects",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint --config config/eslint-config/.eslintrc.js .",
+        "format": "prettier --config config/prettier-config/.prettierrc.js --write ."
+    },
+    "keywords": [
+        "shared",
+        "config",
+        "eslint",
+        "prettier"
+    ],
+    "author": "NoSignalAV",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^8.19.0",
+        "prettier": "^2.7.1"
+    },
+    "directories": {
+        "doc": "docs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NoSignalAV/NoSignalAV-Shared.git"
+    },
+    "bugs": {
+        "url": "https://github.com/NoSignalAV/NoSignalAV-Shared/issues"
+    },
+    "homepage": "https://github.com/NoSignalAV/NoSignalAV-Shared#readme"
+}
